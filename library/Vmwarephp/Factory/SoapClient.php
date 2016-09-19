@@ -27,7 +27,7 @@ class SoapClient {
         )
       )
     );
-		$soapClient = $this->makeDefaultSoapClient($this->wsdlFilePath, $options);
+		$soapClient = $this->makeDefaultSoapClient('https://' . $vhost->host . '/sdk/vimService.wsdl', $options);
 		if (!$soapClient) throw new Ex\CannotCreateSoapClient();
 		return $soapClient;
 	}
