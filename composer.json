@@ -1,8 +1,6 @@
 {
-    "name" : "agazzi/vmwarephp",
+    "name" : "neuralys/vmwarephp",
     "description" : "VMWare vSphere client for PHP",
-	"keywords":["vmware", "php", "vsphere", "bindings", "vsphere sdk", "vmware php"],
-	"homepage":"https://github.com/agazzi/vmwarephp",
     "type": "library",
     "license": "MIT",
     "authors": [
